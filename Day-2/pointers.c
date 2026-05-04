@@ -1,13 +1,13 @@
 #include<stdio.h>
-//starting with an mai function
+//starting with an main function
 int main(){
-//creating an sensors array eith 3 values
+//creating an sensors array with 3 values
     unsigned char sensors[3]={0x00,0x02,0x03};
     // creating an pointer address with the name pointer
     unsigned char *pointer=sensors;
     
     printf("The pointer values addressing \n");
-    //cretinag an for loop with 3 nottations
+    //creating an for loop with 3 notations
     for(int i=0;i<3;i++){
     //here printing the i with -%D and pointer location with %p and the hex value 0x%02X
         printf("sensors %d address %p | value: 0x%02X \n",i,(void*)(pointer+i),*(pointer+i));
