@@ -27,7 +27,12 @@ Today was about moving from "scripts" to "systems." I focused on how data travel
 - **Matrix Mapping:** Mastered 2D array indexing `[row][col]`. This is the foundation for representing 2D spatial maps for autonomous navigation.
 - **String Integrity:** Manually reversed strings to understand the role of the Null Terminator (`\0`) in C's memory management.
 
+### 📍 Day 5: The Pointer Grind & Memory Inception
+Today was the most challenging day of the mission. I moved from high-level variables to direct memory manipulation.
 
+- **Pass-by-Reference:** Built a `swap` function that modifies variables in `main` by accessing their addresses.
+- **Pointer Arithmetic:** Navigated arrays using `ptr++`, proving that C treats arrays as contiguous memory blocks.
+- **Double Pointers:** Explored "Pointer Inception" (`**ptr`) to understand how to manage pointers to other pointers—a key skill for dynamic memory and hardware drivers.
 
 
 
