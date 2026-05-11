@@ -34,6 +34,21 @@ Today was the most challenging day of the mission. I moved from high-level varia
 - **Pointer Arithmetic:** Navigated arrays using `ptr++`, proving that C treats arrays as contiguous memory blocks.
 - **Double Pointers:** Explored "Pointer Inception" (`**ptr`) to understand how to manage pointers to other pointers—a key skill for dynamic memory and hardware drivers.
 
+  ### 📍 Day 6: The Structural Architecture & Member Access
+Today I moved from raw memory addresses to **Data Organization**, learning how to group hardware components into logical units.
+
+- **Data Encapsulation:** Grouped related hardware data (Motor ID, Speed, Status) into a `struct` to simplify drone control logic.
+- **The Arrow Operator (->):** Mastered accessing structure members via pointers. This is a non-negotiable skill for working with hardware abstraction layers and CMSIS.
+- **Pass-by-Reference for Structs:** Practiced passing structure addresses to functions to prevent the CPU from wasting cycles copying data blocks in RAM.
+
+- ### 📍 Day 7: The Memory Diet (Unions & Bit-fields)
+Today was all about "Squeezing the hardware." I shifted focus to **Extreme Memory Optimization**, learning how to pack maximum logic into the smallest possible space.
+
+- **Unions & Shared Memory:** Demonstrated how different data types (like a float for voltage and an int for error codes) can occupy the same physical memory address, essential for high-speed telemetry.
+- **The Overwrite Principle:** Experimented with how assigning a value to one union member "crushes" the data of another, reinforcing why we use "Tagged Unions" in professional embedded code.
+- **Bit-fields:** Sliced a single byte into individual bits to control "Engine ON/OFF" and "Flight Modes," proving that we don't need a full 32-bit integer for a simple binary switch.
+
+  
 
 
 
