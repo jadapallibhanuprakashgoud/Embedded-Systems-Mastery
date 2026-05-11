@@ -70,11 +70,11 @@ Today was all about "Squeezing the hardware." I shifted focus to **Extreme Memor
 
 ---
 ## 🎯 Roadmap to Mastery
-[x] Day 1-3: Basic Logic & Control Flow
-[x] Day 4: Arrays, Matrices, and Functions
-[x] Day 5: Pointers & Memory Inception (Mastered Swap, Arithmetic, and Double Pointers)
-[x] Day 6: Structures & Member Access (Mastered Encapsulation and the -> operator)
-[x] Day 7: Memory Optimization (Mastered Unions and Bit-fields for Telemetry)
-[ ] Day 8: Bitwise Surgical Logic (AND, OR, XOR, Shifting — Tomorrow's Mission)
-[ ] Day 9: The volatile Keyword & Interrupts (The bridge to real hardware)
-[ ] Day 10: Final Embedded Integration Project (Bringing it all together)
+- [x] Day 1-3: Basic Logic & Control Flow
+- [x] Day 4: Arrays, Matrices, and Functions
+- [x] Day 5: Pointers & Memory Inception
+- [x] Day 6: Structures & Member Access
+- [x] Day 7: Memory Optimization (Unions & Bit-fields)
+- [ ] Day 8: Bitwise Surgical Logic (Tomorrow's Mission)
+- [ ] Day 9: The volatile Keyword & Interrupts
+- [ ] Day 10: Final Embedded Integration Project
