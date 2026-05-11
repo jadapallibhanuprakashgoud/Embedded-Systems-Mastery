@@ -75,6 +75,6 @@ Today was all about "Squeezing the hardware." I shifted focus to **Extreme Memor
 - [x] Day 5: Pointers & Memory Inception
 - [x] Day 6: Structures & Member Access
 - [x] Day 7: Memory Optimization (Unions & Bit-fields)
-- [ ] Day 8: Bitwise Surgical Logic (Tomorrow's Mission)
+- [ ] Day 8: Bitwise Surgical Logic 
 - [ ] Day 9: The volatile Keyword & Interrupts
 - [ ] Day 10: Final Embedded Integration Project
