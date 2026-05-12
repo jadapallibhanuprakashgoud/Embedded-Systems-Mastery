@@ -48,6 +48,13 @@ Today was all about "Squeezing the hardware." I shifted focus to **Extreme Memor
 - **The Overwrite Principle:** Experimented with how assigning a value to one union member "crushes" the data of another, reinforcing why we use "Tagged Unions" in professional embedded code.
 - **Bit-fields:** Sliced a single byte into individual bits to control "Engine ON/OFF" and "Flight Modes," proving that we don't need a full 32-bit integer for a simple binary switch.
 
+### 📍 Day 8: Bitwise Surgical Logic (Masking & Shifting)
+Today I moved from "Storing" data to "Driving" hardware logic by manipulating individual bits at the register level.
+
+- **The OR (|) Set Operator:** Mastered how to force a bit to 1 (Bit 0 and Bit 7) without affecting the rest of the register.
+- **The AND (&) Mask:** Built a "Surgical Check" to verify if a specific bit is High—used here to verify if the system is "Armed."
+- **Bit-Shifting (<<):** Used bit-shifting to target specific hardware pins dynamically by moving a '1' to the desired index.
+- **Custom Binary Visualization:** Developed a function to peel bits off a byte to see exactly what the hardware sees.
   
 
 
@@ -75,6 +82,6 @@ Today was all about "Squeezing the hardware." I shifted focus to **Extreme Memor
 - [x] Day 5: Pointers & Memory Inception
 - [x] Day 6: Structures & Member Access
 - [x] Day 7: Memory Optimization (Unions & Bit-fields)
-- [ ] Day 8: Bitwise Surgical Logic 
+- [x] Day 8: Bitwise Surgical Logic 
 - [ ] Day 9: The volatile Keyword & Interrupts
 - [ ] Day 10: Final Embedded Integration Project
